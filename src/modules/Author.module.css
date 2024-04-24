@@ -1,0 +1,23 @@
+.author {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.avatar {
+  width: 32px;
+  border: solid 1px #fff;
+  border-radius: 50%;
+}
+
+.link {
+  color: #fff;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: hsl(178, 100%, 50%);
+}
